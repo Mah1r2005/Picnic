@@ -1,0 +1,570 @@
+<html>
+<head>
+<title>
+Picnic korbo
+</title>
+<base href="https://picnicss.com/documentation">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+<style>
+.myCoolButton {
+    background: #85144b;
+}
+.mainButton {
+    font-size: 1.5em;
+}
+.shyButton {
+    font-size: .75em;
+}
+.cool:hover,
+.cool:active,
+.cool:focus {
+    background: #cff;
+}
+
+.miniprofile {
+  border-radius: 50%;    /* Make it a circle */
+  margin: 0 auto;        /* Center horizontally */
+  width: 60%;            /* 60% width */
+  padding-bottom: 60%;   /* 60% height */
+}
+
+.profile {
+  border-radius: 50%;     /* Make it a circle */
+  padding-bottom: 100%;   /* 100% height (ratio 1) */
+}
+
+nav.imponent {
+  padding: 2em 0;
+}
+
+.imponent .logo {
+  height: 3em;
+}
+
+
+
+</style>
+</head>
+</body>
+
+<br><br><br>
+<button>Button</button>
+<button class='success'>Success</button>
+<button class='warning'>Warning</button>
+<button class='error'>Error</button>
+<button disabled>Disabled</button>
+<button>Button</button>
+<a class="button">Link</a>
+<input value="Submit" type="submit">
+<label>
+  <input type="checkbox">
+  <span class="toggle button">Toggle</span>
+</label>
+
+<button class="pseudo">Button</button>
+<a class="pseudo button">Link</a>
+<input class="pseudo" value="Submit" type="submit">
+<label>
+    <input type="checkbox">
+    <span class="toggle pseudo button">Toggle</span>
+</label>
+
+<button class="myCoolButton">My Cool Button</button>
+
+<button class="mainButton">Large button</button><br>
+<button>Normal button</button><br>
+<button class="shyButton">Small button</button>
+
+<button class="pseudo cool">Pseudo personal</button>
+<article class="card">
+  <header>
+    <h3>A really simple h3</h3>
+  </header>
+</article>
+
+<button>Button</button>
+<button class='success'>Success</button>
+<button class='warning'>Warning</button>
+<button class='error'>Error</button>
+<button disabled>Disabled</button>
+
+<button>Button</button>
+<a class="button">Link</a>
+<input value="Submit" type="submit">
+<label>
+  <input type="checkbox">
+  <span class="toggle button">Toggle</span>
+</label>
+
+<button class="pseudo">Button</button>
+<a class="pseudo button">Link</a>
+<input class="pseudo" value="Submit" type="submit">
+<label>
+    <input type="checkbox">
+    <span class="toggle pseudo button">Toggle</span>
+</label>
+
+<button class="myCoolButton">My Cool Button</button>
+
+
+<button class="mainButton">Large button</button><br>
+<button>Normal button</button><br>
+<button class="shyButton">Small button</button>
+
+
+<button class="pseudo cool">Pseudo personal</button>
+
+<article class="card">
+  <header>
+    <h3>A really simple h3</h3>
+  </header>
+</article>
+
+<article class="card">
+  <header>
+    <button>Love</button>
+    <button class="dangerous">Hate</button>
+  </header>
+</article>
+
+<article class="card">
+  <header>
+    <h3>Forest</h3>
+  </header>
+  <footer>
+    <button>Like</button>
+  </footer>
+</article>
+
+<div class="flex two">
+  <div>
+    <article class="card">
+      <img src="/img/forest.jpg">
+      <footer>
+        <h3>Misty Forest</h3>
+        <button>Like</button>
+      </footer>
+    </article>
+  </div>
+  <div>
+    <article class="card">
+      <img src="/img/forest.jpg">
+      <footer>
+        <h3>Misty Forest</h3>
+        <button>Like</button>
+      </footer>
+    </article>
+  </div>
+</div>
+
+<label>
+  <input type="checkbox">
+  <span class="checkable">Check me out (;</span>
+</label>
+
+<label>
+  <input type="checkbox" checked>
+  <span class="checkable">Uncheck me</span>
+</label>
+
+<label>
+  <input type="checkbox">
+  <span class="checkable">Checkbox text</span>
+</label>
+
+<input id="checkboxdemo" type="checkbox">
+<label for="checkboxdemo" class="checkable">Checkbox text</label>
+
+<div style="width: 200px"> <!-- this div just for demo display -->
+  <label class="dropimage">
+    <input title="Drop image or click me" type="file">
+  </label>
+</div>
+
+<div style="width: 200px"> <!-- this div just for demo display -->
+  <label class="dropimage profile">
+    <input name="filea" title="Drop image or click me" type="file">
+  </label>
+</div>
+
+<div style="width: 200px"> <!-- this div just for demo display -->
+  <label class="dropimage miniprofile">
+    <input name="filea" title="Drop image or click me" type="file">
+  </label>
+</div>
+
+<div class="flex two four-500 six-800 demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div class="full half-500 third-800"><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+  <div><span>6</span></div>
+  <div><span>7</span></div>
+  <div><span>8</span></div>
+  <div><span>9</span></div>
+  <div class="off-half off-fourth-500 off-sixth-800"><span>10</span></div>
+</div>
+
+<div class="flex demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+  <div><span>6</span></div>
+</div>
+
+<div class="flex demo">
+  <div><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></div>
+  <div><span>2</span></div>
+</div>
+
+<div class="flex three demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+</div>
+
+<div class="flex two three-600 six-1200 demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+  <div><span>6</span></div>
+</div>
+
+<div class="flex three demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+</div>
+
+<div class="flex three grow demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+</div>
+
+<div class="flex three center demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div><span>3</span></div>
+  <div><span>4</span></div>
+  <div><span>5</span></div>
+</div>
+
+<div class="flex four demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div class="half"><span>3</span></div>
+</div>
+
+<div class="flex four demo">
+  <div class="half fourth-1000"><span>1</span></div>
+  <div class="half fourth-1000"><span>2</span></div>
+  <div class="full half-1000"><span>3</span></div>
+</div>
+
+<div class="flex four demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div class="off-fourth"><span>3</span></div>
+</div>
+
+<div class="flex three four-1000 demo">
+  <div><span>1</span></div>
+  <div><span>2</span></div>
+  <div class="off-fourth-800"><span>3</span></div>
+</div>
+<fieldset class="flex two">
+  <label><input type="email" placeholder="Email"></label>
+  <label><input type="password" placeholder="Password"></label>
+</fieldset>
+<textarea placeholder="Textarea"></textarea>
+
+<h1>header 1 <span class="label">Normal</span></h1>
+<h2>header 2 <span class="label success">Success</span></h2>
+<h3>header 3 <span class="label warning">Warning</span></h3>
+<h4>header 4 <span class="label error">Error</span></h4>
+<p>paragraph <span class="label">Normal</span></p>
+
+<label for="modal_1" class="button">Show modal</label>
+
+<div class="modal">
+  <input id="modal_1" type="checkbox" />
+  <label for="modal_1" class="overlay"></label>
+  <article>
+    <header>
+      <h3>Great offer</h3>
+      <label for="modal_1" class="close">&times;</label>
+    </header>
+    <section class="content">
+      We have a special offer for you. I am sure you will love it! However this does look spammy...
+    </section>
+    <footer>
+      <a class="button" href="#">See offer</a>
+      <label for="modal_1" class="button dangerous">
+        Cancel
+      </label>
+    </footer>
+  </article>
+</div>
+
+<div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+<nav class="demo">
+  <a href="#" class="brand">
+    <img class="logo" src="/img/basket.png" />
+    <span>Picnic CSS</span>
+  </a>
+
+  <!-- responsive-->
+  <input id="bmenub" type="checkbox" class="show">
+  <label for="bmenub" class="burger pseudo button">menu</label>
+
+  <div class="menu">
+    <a href="#" class="pseudo button icon-picture">Demo</a>
+    <a href="#" class="button icon-puzzle">Plugins</a>
+  </div>
+</nav>
+
+</div>
+
+<nav class="demo imponent">
+  <a href="#" class="brand">
+    <img class="logo" src="/img/basket.png" />
+    <span>Picnic CSS</span>
+  </a>
+</nav>
+
+<div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+<nav class="demo">
+  <a href="#" class="brand">Picnic CSS</a>
+
+  <!-- responsive-->
+  <input id="bmenug" type="checkbox" class="show">
+  <label for="bmenug" class="burger pseudo button">&#8801;</label>
+
+  <div class="menu">
+    <input placeholder="Search plugins" />
+  </div>
+</nav>
+
+</div>
+
+<div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+<nav class="demo">
+  <a href="#" class="brand">Picnic CSS</a>
+
+  <!-- responsive-->
+  <input id="cmenug" type="checkbox" class="show">
+  <label for="cmenug" class="burger pseudo button">&#8801;</label>
+
+  <div class="menu">
+    <select>
+      <option>Choose an option</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+    </select>
+  </div>
+</nav>
+
+</div>
+
+<div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the body -->
+
+<nav class="demo">
+  <a href="#" class="brand">Picnic CSS</a>
+
+  <!-- responsive-->
+  <input id="cmenug" type="checkbox" class="show">
+  <label for="cmenug" class="burger pseudo button">&#8801;</label>
+
+  <div class="menu">
+    <select>
+      <option>Choose an option</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+    </select>
+  </div>
+</nav>
+
+</div>
+<label>
+  <input type='radio' name="radiodemo">
+  <span class="checkable">Select me</span>
+</label><br><br>
+
+<input id="radiodemo" checked type='radio' name="radiodemo">
+<label for="radiodemo" class="checkable">Or me</label>
+
+<select>
+  <option>Select an option</option>
+  <option>Good option</option>
+  <option>Nice option</option>
+  <option>Cheap option</option>
+</select>
+
+<span class="button stack icon-picture">Home</span>
+<span class="button stack icon-puzzle">Plugins</span>
+<span class="button stack icon-file-code">Documentation</span>
+<span class="button stack icon-help-circled">Test</span>
+
+<div>
+  <label class="stack">
+    <input name="stack" type="radio">
+    <span class="button toggle">
+      <span class="icon-picture"></span> Home
+    </span>
+  </label>
+  <label class="stack">
+    <input name="stack" type="radio">
+    <span class="button toggle">
+      <span class="icon-puzzle"></span> Plugins
+    </span>
+  </label>
+  <label class="stack">
+    <input name="stack" type="radio">
+    <span class="button toggle">
+      <span class="icon-file-code"></span> Documentation
+    </span>
+  </label>
+  <label class="stack">
+    <input name="stack" type="radio">
+    <span class="button toggle">
+      <span class="icon-help-circled"></span> Test
+    </span>
+  </label>
+</div>
+
+<div class="third">
+  <img class="stack" src="/img/forest.jpg">
+  <a class="button stack">Full size</a>
+</div>
+
+<div class="third">
+  <input class="stack" placeholder="Name" />
+  <input class="stack" placeholder="Email" />
+  <button class="stack icon-paper-plane">
+      Send
+  </button>
+</div>
+
+<a class="stack pseudo button">First</a>
+<a class="stack pseudo button">Second</a>
+<a class="stack pseudo button">Third</a>
+<div class="third">
+  <input class="stack" placeholder="First name" />
+  <input class="stack" placeholder="Last name" />
+  <input class="stack" placeholder="Email" />
+</div><br>
+
+<div class="third">
+  <input class="stack" placeholder="Password" />
+  <input class="stack" placeholder="Repeat password" />
+  <textarea class="stack" placeholder="Biography"></textarea>
+  <button class="stack icon-paper-plane">Send</button>
+</div>
+<table class="primary">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Francisco</td>
+      <td>Valencia, Spain</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>San Francisco, USA</td>
+    </tr>
+    <tr>
+      <td>Martin</td>
+      <td>New York, USA</td>
+    </tr>
+    <tr>
+      <td>Sarah</td>
+      <td>London, UK</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="tabs three">
+  <input id='tab-1' type='radio' name='tabgroupB' checked />
+  <label class="pseudo button toggle" for="tab-1">Forest</label>
+  <input id='tab-2' type='radio' name='tabgroupB'>
+  <label class="pseudo button toggle" for="tab-2">Lake</label>
+  <input id='tab-3' type='radio' name='tabgroupB'>
+  <label class="pseudo button toggle" for="tab-3">Balloon</label>
+  <div class="row">
+    <div>
+      <img src="img/forest.jpg">
+    </div>
+
+    <div>
+      <img src="img/lake.jpg">
+    </div>
+
+    <div>
+      <img src="img/balloon.jpg">
+    </div>
+  </div>
+</div>
+
+<div class="tabs four">
+  <input id="tabC-1" type='radio' name='tabGroupC' checked >
+  <input id="tabC-2" type='radio' name='tabGroupC'>
+  <input id="tabC-3" type='radio' name='tabGroupC'>
+  <input id="tabC-4" type='radio' name='tabGroupC'>
+  <div class='row'>
+    <div>
+      <img src="img/forest.jpg">
+    </div>
+    <div>
+      <img src="img/lake.jpg">
+    </div>
+    <div>
+      <img src="img/halong.jpg">
+    </div>
+    <div>
+      <img src="img/balloon.jpg">
+    </div>
+  </div>
+  <label for="tabC-1"><img src="img/forest.jpg"></label>
+  <label for="tabC-2"><img src="img/lake.jpg"></label>
+  <label for="tabC-3"><img src="img/halong.jpg"></label>
+  <label for="tabC-4"><img src="img/balloon.jpg"></label>
+</div>
+<button data-tooltip="This is a great tooltip" class="tooltip-top">
+  Hover for tooltip
+</button>
+
+<button data-tooltip="This is a great tooltip" class="tooltip-top">
+  Top
+</button>
+<button data-tooltip="This is a great tooltip">
+  Bottom (default)
+</button>
+<button data-tooltip="This is a great tooltip" class="tooltip-left">
+  Left
+</button>
+<button data-tooltip="This is a great tooltip" class="tooltip-right">
+  Right
+</button>
+
+
+</body>
+</html>
